@@ -1,0 +1,26 @@
+{
+  "name": "live-reload-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinbmeyer/live-reload-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinbmeyer/live-reload-example/issues"
+  },
+  "homepage": "https://github.com/justinbmeyer/live-reload-example#readme",
+  "dependencies": {
+    "steal": "^0.16.35",
+    "steal-tools": "^0.16.8"
+  },
+  "system": {
+    "configDependencies": ["live-reload"]
+  }
+}
